@@ -29,7 +29,7 @@ var quotes = [
 
 // generates random quotes
 function getRandomQuote() {
-  var i = Math.floor(Math.random()*5)+1;
+  var i = Math.floor(Math.random()*quotes.length);
   var numberQuotes = quotes[i];
   return numberQuotes;
 }
